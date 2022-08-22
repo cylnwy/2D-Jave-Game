@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1837.3694495141613" y="2938.0">model.character</node>
+    <node x="1699.5489366936486" y="4386.0">model.map</node>
+    <node x="272.18370811880504" y="4992.5">view.functionalMenu</node>
+    <node x="599.8461538461539" y="4454.5">controller.MouseListen</node>
+    <node x="762.9490435312555" y="930.0">model.imageRes</node>
+    <node x="981.7001916352884" y="1745.5">controller.KeyListen</node>
+    <node x="2052.8719203873056" y="1768.0">model.Bomb</node>
+    <node x="935.1374118402972" y="0.0">model.soundEffect</node>
+    <node x="1335.6131952982919" y="6159.0">view.myPanel</node>
+    <node x="1504.767041452138" y="4751.0">controller.gameStage</node>
+    <node x="623.865710197922" y="3375.0">view.LoF</node>
+    <node x="1828.4206383360236" y="671.5">model.Bullet.BulletThread</node>
+    <node x="250.84615384615392" y="1838.5">model.txtRW</node>
+    <node x="1934.9868708748527" y="7026.0">controller.impactDetecter</node>
+    <node x="349.8461538461539" y="4374.0">model.drawPanel</node>
+    <node x="1453.440118375215" y="4396.5">model.item</node>
+    <node x="1803.4206383360236" y="1757.0">model.Bullet</node>
+    <node x="58.84615384615404" y="1733.5">model.gameTimer</node>
+    <node x="1233.7001916352883" y="521.0">controller.gameControl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="view.functionalMenu" target="model.txtRW">
+      <point x="-43.53846153846155" y="-352.5" />
+      <point x="370.1452465803435" y="4691.0" />
+      <point x="306.3461538461539" y="4691.0" />
+      <point x="-55.5" y="40.5" />
+    </edge>
+    <edge source="view.functionalMenu" target="model.soundEffect">
+      <point x="-108.84615384615392" y="-352.5" />
+      <point x="304.8375542726511" y="4721.0" />
+      <point x="48.34615384615404" y="4721.0" />
+      <point x="48.34615384615404" y="481.0" />
+      <point x="969.3374118402972" y="481.0" />
+      <point x="-79.79999999999995" y="225.5" />
+    </edge>
+    <edge source="controller.KeyListen" target="model.soundEffect">
+      <point x="-86.625" y="-133.5" />
+      <point x="1010.5751916352884" y="910.0" />
+      <point x="1042.5740435312555" y="910.0" />
+      <point x="1042.5740435312555" y="501.0" />
+      <point x="1037.7374118402972" y="501.0" />
+      <point x="-11.400000000000091" y="225.5" />
+    </edge>
+    <edge source="view.myPanel" target="model.Bomb">
+      <point x="119.87179487179492" y="-398.5" />
+      <point x="1592.9849901700868" y="6119.0" />
+      <point x="2093.8694495141613" y="6119.0" />
+      <point x="2093.8694495141613" y="2898.0" />
+      <point x="2125.014777530163" y="2898.0" />
+      <point x="-28.857142857142662" y="111.0" />
+    </edge>
+    <edge source="view.myPanel" target="view.functionalMenu">
+      <point x="-105.76923076923072" y="-398.5" />
+      <point x="1367.3439645290612" y="6099.0" />
+      <point x="319.3503747854718" y="6099.0" />
+      <point x="-94.33333333333331" y="352.5" />
+    </edge>
+    <edge source="view.LoF" target="view.myPanel">
+      <point x="74.0" y="226.0" />
+      <point x="845.865710197922" y="4314.0" />
+      <point x="967.5247744776598" y="4314.0" />
+      <point x="967.5247744776598" y="6059.0" />
+      <point x="1395.5490927341893" y="6059.0" />
+      <point x="-77.56410256410254" y="-398.5" />
+    </edge>
+    <edge source="view.LoF" target="controller.KeyListen">
+      <point x="131.55555555555554" y="-226.0" />
+      <point x="903.4212657534775" y="2918.0" />
+      <point x="1020.2001916352884" y="2918.0" />
+      <point x="-77.0" y="133.5" />
+    </edge>
+    <edge source="view.LoF" target="model.imageRes">
+      <point x="98.66666666666663" y="-226.0" />
+      <point x="870.5323768645886" y="2908.0" />
+      <point x="900.9490435312555" y="2908.0" />
+      <point x="46.0" y="949.0" />
+    </edge>
+    <edge source="view.myPanel" target="controller.impactDetecter">
+      <point x="103.125" y="398.5" />
+      <point x="1576.2381952982919" y="6976.0" />
+      <point x="2036.097981985964" y="6976.0" />
+      <point x="-28.888888888888914" y="-64.5" />
+    </edge>
+    <edge source="view.myPanel" target="model.soundEffect">
+      <point x="-14.102564102564202" y="-398.5" />
+      <point x="1459.0106311957277" y="5969.0" />
+      <point x="1426.2001916352883" y="5969.0" />
+      <point x="1426.2001916352883" y="471.0" />
+      <point x="1151.7374118402972" y="471.0" />
+      <point x="102.60000000000014" y="225.5" />
+    </edge>
+    <edge source="model.character" target="model.Bullet">
+      <point x="-49.200000000000045" y="-663.0" />
+      <point x="1911.1694495141612" y="2918.0" />
+      <point x="1946.7777811931664" y="2918.0" />
+      <point x="31.85714285714289" y="122.0" />
+    </edge>
+    <edge source="view.myPanel" target="controller.gameStage">
+      <point x="35.25641025641016" y="-398.5" />
+      <point x="1508.369605554702" y="5999.0" />
+      <point x="1633.767041452138" y="5999.0" />
+      <point x="-43.0" y="594.0" />
+    </edge>
+    <edge source="model.character" target="view.myPanel">
+      <point x="94.61538461538476" y="663.0" />
+      <point x="2054.984834129546" y="4354.0" />
+      <point x="2051.098672161172" y="4354.0" />
+      <point x="2051.098672161172" y="6109.0" />
+      <point x="1585.9337081188046" y="6109.0" />
+      <point x="112.8205128205127" y="-398.5" />
+    </edge>
+    <edge source="model.character" target="model.map">
+      <point x="-18.923076923076906" y="663.0" />
+      <point x="1941.4463725910844" y="4354.0" />
+      <point x="1951.5489366936486" y="4354.0" />
+      <point x="112.0" y="-121.5" />
+    </edge>
+    <edge source="view.functionalMenu" target="model.drawPanel">
+      <point x="43.53846153846155" y="-352.5" />
+      <point x="457.2221696572666" y="4731.0" />
+      <point x="464.8461538461539" y="4731.0" />
+      <point x="0.0" y="133.5" />
+    </edge>
+    <edge source="view.myPanel" target="model.gameTimer">
+      <point x="-119.87179487179492" y="-398.5" />
+      <point x="1353.241400426497" y="6119.0" />
+      <point x="14.102564102564202" y="6119.0" />
+      <point x="14.102564102564202" y="2908.0" />
+      <point x="106.62393162393187" y="2908.0" />
+      <point x="-38.22222222222217" y="145.5" />
+    </edge>
+    <edge source="model.drawPanel" target="view.LoF">
+      <point x="57.5" y="-133.5" />
+      <point x="522.3461538461539" y="4344.0" />
+      <point x="719.0085673407791" y="4344.0" />
+      <point x="-52.85714285714289" y="226.0" />
+    </edge>
+    <edge source="controller.gameStage" target="view.myPanel">
+      <point x="43.0" y="594.0" />
+      <point x="1719.767041452138" y="6009.0" />
+      <point x="1515.4208876059843" y="6009.0" />
+      <point x="42.30769230769238" y="-398.5" />
+    </edge>
+    <edge source="model.Bullet.BulletThread" target="model.Bullet">
+      <point x="0.0" y="29.0" />
+      <point x="0.0" y="-122.0" />
+    </edge>
+    <edge source="controller.gameStage" target="model.item">
+      <point x="-114.66666666666674" y="-594.0" />
+      <point x="1562.1003747854713" y="4731.0" />
+      <point x="1536.627618375215" y="4731.0" />
+      <point x="22.6875" y="111.0" />
+    </edge>
+    <edge source="controller.impactDetecter" target="model.Bullet">
+      <point x="57.77777777777783" y="-64.5" />
+      <point x="2122.7646486526305" y="7006.0" />
+      <point x="2142.4848341295456" y="7006.0" />
+      <point x="2142.4848341295456" y="2868.0" />
+      <point x="2010.4920669074522" y="2868.0" />
+      <point x="95.57142857142867" y="122.0" />
+    </edge>
+    <edge source="model.Bullet" target="model.Bullet.BulletThread">
+      <point x="-74.33333333333326" y="-122.0" />
+      <point x="1840.5873050026903" y="910.0" />
+      <point x="1857.2539716693568" y="910.0" />
+      <point x="-57.66666666666674" y="29.0" />
+    </edge>
+    <edge source="controller.gameControl" target="view.myPanel">
+      <point x="22.75" y="179.5" />
+      <point x="1347.4501916352883" y="910.0" />
+      <point x="1366.6745506096474" y="910.0" />
+      <point x="1366.6745506096474" y="5989.0" />
+      <point x="1444.9080670931637" y="5989.0" />
+      <point x="-28.205128205128176" y="-398.5" />
+    </edge>
+    <edge source="view.myPanel" target="model.Bullet">
+      <point x="-7.0512820512822145" y="-398.5" />
+      <point x="1466.0619132470097" y="5959.0" />
+      <point x="1442.940118375215" y="5959.0" />
+      <point x="1442.940118375215" y="2878.0" />
+      <point x="1819.349209764595" y="2878.0" />
+      <point x="-95.57142857142867" y="122.0" />
+    </edge>
+    <edge source="view.functionalMenu" target="controller.MouseListen">
+      <point x="65.30769230769226" y="-352.5" />
+      <point x="478.9914004264973" y="4701.0" />
+      <point x="661.3461538461539" y="4701.0" />
+      <point x="-61.5" y="53.0" />
+    </edge>
+    <edge source="controller.KeyListen" target="controller.gameControl">
+      <point x="28.875" y="-133.5" />
+      <point x="1126.0751916352883" y="900.0" />
+      <point x="1256.4501916352883" y="900.0" />
+      <point x="-68.25" y="179.5" />
+    </edge>
+    <edge source="controller.gameStage" target="model.character">
+      <point x="0.0" y="-594.0" />
+      <point x="1676.767041452138" y="4731.0" />
+      <point x="1678.0489366936486" y="4731.0" />
+      <point x="1678.0489366936486" y="4324.0" />
+      <point x="1865.7540648987767" y="4324.0" />
+      <point x="-94.61538461538453" y="663.0" />
+    </edge>
+    <edge source="controller.impactDetecter" target="model.Bomb">
+      <point x="86.66666666666652" y="-64.5" />
+      <point x="2151.653537541519" y="6996.0" />
+      <point x="2206.436022951408" y="6996.0" />
+      <point x="2206.436022951408" y="2918.0" />
+      <point x="2211.5862061015914" y="2918.0" />
+      <point x="57.71428571428578" y="111.0" />
+    </edge>
+    <edge source="view.functionalMenu" target="view.myPanel">
+      <point x="94.33333333333326" y="352.5" />
+      <point x="508.0170414521383" y="6079.0" />
+      <point x="1381.4465286316254" y="6079.0" />
+      <point x="-91.66666666666652" y="-398.5" />
+    </edge>
+    <edge source="model.Bullet" target="model.map">
+      <point x="-31.85714285714289" y="122.0" />
+      <point x="1883.0634954788807" y="2898.0" />
+      <point x="1784.3206383360236" y="2898.0" />
+      <point x="-56.0" y="-121.5" />
+    </edge>
+    <edge source="view.myPanel" target="model.item">
+      <point x="21.15384615384619" y="-398.5" />
+      <point x="1494.267041452138" y="4731.0" />
+      <point x="1506.377618375215" y="4731.0" />
+      <point x="-7.5625" y="111.0" />
+    </edge>
+    <edge source="model.character" target="model.Bomb">
+      <point x="98.40000000000009" y="-663.0" />
+      <point x="2058.7694495141614" y="2888.0" />
+      <point x="2096.15763467302" y="2888.0" />
+      <point x="-57.71428571428578" y="111.0" />
+    </edge>
+    <edge source="controller.impactDetecter" target="model.item">
+      <point x="0.0" y="-64.5" />
+      <point x="2064.9868708748527" y="6986.0" />
+      <point x="2120.4848341295456" y="6986.0" />
+      <point x="2120.4848341295456" y="4711.0" />
+      <point x="1566.877618375215" y="4711.0" />
+      <point x="52.9375" y="111.0" />
+    </edge>
+    <edge source="view.LoF" target="model.txtRW">
+      <point x="-32.888888888888914" y="-226.0" />
+      <point x="738.9768213090331" y="2878.0" />
+      <point x="417.3461538461539" y="2878.0" />
+      <point x="55.5" y="40.5" />
+    </edge>
+    <edge source="view.myPanel" target="view.LoF">
+      <point x="-56.41025641025635" y="-398.5" />
+      <point x="1416.7029388880355" y="6029.0" />
+      <point x="988.678620631506" y="6029.0" />
+      <point x="988.678620631506" y="4284.0" />
+      <point x="909.2942816264934" y="4284.0" />
+      <point x="137.42857142857144" y="226.0" />
+    </edge>
+    <edge source="view.myPanel" target="model.map">
+      <point x="63.46153846153857" y="-398.5" />
+      <point x="1536.5747337598305" y="6039.0" />
+      <point x="1935.342261904762" y="6039.0" />
+      <point x="1935.342261904762" y="4731.0" />
+      <point x="1909.5489366936486" y="4731.0" />
+      <point x="70.0" y="121.5" />
+    </edge>
+    <edge source="view.LoF" target="model.soundEffect">
+      <point x="32.888888888888914" y="-226.0" />
+      <point x="804.7545990868109" y="2858.0" />
+      <point x="752.4490435312555" y="2858.0" />
+      <point x="752.4490435312555" y="501.0" />
+      <point x="1014.9374118402972" y="501.0" />
+      <point x="-34.200000000000045" y="225.5" />
+    </edge>
+    <edge source="controller.KeyListen" target="view.myPanel">
+      <point x="0.0" y="133.5" />
+      <point x="1097.2001916352883" y="2918.0" />
+      <point x="1121.6385599443302" y="2918.0" />
+      <point x="1121.6385599443302" y="6019.0" />
+      <point x="1423.7542209393175" y="6019.0" />
+      <point x="-49.358974358974365" y="-398.5" />
+    </edge>
+    <edge source="controller.MouseListen" target="view.LoF">
+      <point x="61.5" y="-53.0" />
+      <point x="784.3461538461539" y="4354.0" />
+      <point x="761.2942816264934" y="4354.0" />
+      <point x="-10.571428571428555" y="226.0" />
+    </edge>
+    <edge source="view.LoF" target="view.functionalMenu">
+      <point x="-95.14285714285711" y="226.0" />
+      <point x="676.7228530550649" y="4324.0" />
+      <point x="339.3461538461539" y="4324.0" />
+      <point x="339.3461538461539" y="4661.0" />
+      <point x="435.45293888803576" y="4661.0" />
+      <point x="21.769230769230717" y="-352.5" />
+    </edge>
+    <edge source="view.functionalMenu" target="model.gameTimer">
+      <point x="-87.0769230769231" y="-352.5" />
+      <point x="326.60678504188195" y="4711.0" />
+      <point x="148.9017094017097" y="4711.0" />
+      <point x="148.9017094017097" y="2918.0" />
+      <point x="144.84615384615404" y="2918.0" />
+      <point x="0.0" y="145.5" />
+    </edge>
+    <edge source="controller.gameControl" target="model.soundEffect">
+      <point x="-45.5" y="-179.5" />
+      <point x="1279.2001916352883" y="491.0" />
+      <point x="1106.1374118402973" y="491.0" />
+      <point x="57.0" y="225.5" />
+    </edge>
+    <edge source="controller.impactDetecter" target="view.myPanel">
+      <point x="-115.55555555555566" y="-64.5" />
+      <point x="1949.431315319297" y="7006.0" />
+      <point x="1369.9881952982919" y="7006.0" />
+      <point x="-103.125" y="398.5" />
+    </edge>
+    <edge source="view.myPanel" target="model.character">
+      <point x="77.56410256410254" y="-398.5" />
+      <point x="1550.6772978623944" y="6059.0" />
+      <point x="1990.0489366936486" y="6059.0" />
+      <point x="1990.0489366936486" y="4354.0" />
+      <point x="1960.3694495141613" y="4354.0" />
+      <point x="0.0" y="663.0" />
+    </edge>
+    <edge source="controller.impactDetecter" target="model.character">
+      <point x="28.888888888888687" y="-64.5" />
+      <point x="2093.8757597637414" y="6996.0" />
+      <point x="2131.4848341295456" y="6996.0" />
+      <point x="2131.4848341295456" y="4354.0" />
+      <point x="2073.9079110526227" y="4354.0" />
+      <point x="113.53846153846143" y="663.0" />
+    </edge>
+    <edge source="model.gameTimer" target="view.myPanel">
+      <point x="-57.33333333333326" y="145.5" />
+      <point x="87.51282051282078" y="2898.0" />
+      <point x="7.0512820512822145" y="2898.0" />
+      <point x="7.0512820512822145" y="6129.0" />
+      <point x="1346.190118375215" y="6129.0" />
+      <point x="-126.9230769230769" y="-398.5" />
+    </edge>
+    <edge source="model.map" target="model.character">
+      <point x="56.0" y="-121.5" />
+      <point x="1895.5489366936486" y="4354.0" />
+      <point x="1922.5232956680074" y="4354.0" />
+      <point x="-37.84615384615381" y="663.0" />
+    </edge>
+    <edge source="model.map" target="view.myPanel">
+      <point x="116.66666666666652" y="121.5" />
+      <point x="1956.215603360315" y="4731.0" />
+      <point x="1942.393543956044" y="4731.0" />
+      <point x="1942.393543956044" y="6049.0" />
+      <point x="1543.6260158111124" y="6049.0" />
+      <point x="70.51282051282055" y="-398.5" />
+    </edge>
+    <edge source="controller.gameStage" target="model.map">
+      <point x="114.66666666666674" y="-594.0" />
+      <point x="1791.4337081188048" y="4731.0" />
+      <point x="1769.5489366936486" y="4731.0" />
+      <point x="-70.0" y="121.5" />
+    </edge>
+    <edge source="view.functionalMenu" target="view.LoF">
+      <point x="0.0" y="-352.5" />
+      <point x="413.68370811880504" y="4671.0" />
+      <point x="328.3461538461539" y="4671.0" />
+      <point x="328.3461538461539" y="4314.0" />
+      <point x="655.5799959122078" y="4314.0" />
+      <point x="-116.28571428571422" y="226.0" />
+    </edge>
+    <edge source="view.LoF" target="model.gameTimer">
+      <point x="-65.77777777777783" y="-226.0" />
+      <point x="706.0879324201442" y="2888.0" />
+      <point x="221.2905982905986" y="2888.0" />
+      <point x="76.44444444444449" y="145.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.1" x="1373.9880159786949" y="3280.645805592543" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
